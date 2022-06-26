@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); 
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: rgb(53, 53, 53);
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-header {
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 12px;
+  color: rgb(85, 164, 255);
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.Stream-button {
+  margin-bottom: 1rem;
+}
+
+.Graph {
+  min-height: 30rem;
+  width: 55rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+  margin-top: 1rem;
+  background: rgba(223, 171, 0, 0.911);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 500ms ease;
+}
+
+.Graph:hover {
+  background: transparent;
+  border-color: rgba(223, 171, 0, 0.911);
+  cursor: default;
+}
+
+.task__details {
+  background: rgb(233, 179, 0);
+  margin: 3rem;
+  margin-left: 14.5rem;
+  margin-right: 14.5rem;
+  margin-top: -2rem;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: all 400ms ease;
+}
+
+.task__details:hover {
+  background: transparent;
+  border-color: rgba(223, 171, 0, 0.911);
+  cursor: default;
+}
+
